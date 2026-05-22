@@ -1,0 +1,42 @@
+{
+  "manifest": "/gpfs/projects/infoseeking/sgupta01/VideoMAEv2/manifests/intphys2_main1012.txt",
+  "output_dir": "/gpfs/projects/infoseeking/sgupta01/VideoMAEv2/outputs/intphys2_main1012_pipeline",
+  "checkpoint": "/gpfs/projects/infoseeking/sgupta01/hf_cache/models--OpenGVLab--VideoMAEv2-Base/snapshots/78c337a418cc4adaf7f1ff6c7ba343418393966b/model.safetensors",
+  "model_name": "vit_base_patch16_224",
+  "clip_len": 16,
+  "input_size": 224,
+  "sampling_rule": "uniform linspace over [0, num_frames-1] with clip_len=16",
+  "decode_backend": "decord.VideoReader via dataset.loader.get_video_loader",
+  "preprocess": {
+    "scale": "uint8_to_float32_div_255",
+    "resize": "shorter_side_to_224_bilinear",
+    "crop": "center_crop_224x224",
+    "normalize_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalize_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "layout_model_input": "B,C,T,H,W"
+  },
+  "checkpoint_load_info": {
+    "strict_used": false,
+    "missing_keys": [
+      "head.weight",
+      "head.bias"
+    ],
+    "unexpected_keys": []
+  },
+  "run_env": {
+    "utc_time": "2026-03-27T05:41:28.084696+00:00",
+    "hostname": "tillicum-login02",
+    "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+    "torch": "2.5.1",
+    "cuda_available": false,
+    "cuda_version": "12.1"
+  }
+}

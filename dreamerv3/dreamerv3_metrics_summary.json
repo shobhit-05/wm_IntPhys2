@@ -1,0 +1,18 @@
+{
+  "silhouette_gt": -0.025901172310113907,
+  "silhouette_kmeans": 0.31405696272850037,
+  "centroid_gap": -71.29744720458984,
+  "nn_gap": 0.0015883594751358032,
+  "knn5_accuracy": 0.3794466403162055,
+  "invariance_score": -0.007283687591552734,
+  "equiv_cosine_mean": 0.9632036089897156,
+  "diff_cosine_mean": 0.9704872965812683,
+  "dci_cv_accuracy": 0.5533333333333333,
+  "dci_cv_std": 0.032317865716108826,
+  "generalization_gap": -1.1186115443706512e-05,
+  "id_mean_err": 0.009643834084272385,
+  "ood_mean_err": 0.009632647968828678,
+  "n_id": 506,
+  "n_ood": 506,
+  "latent_dim": 10240
+}

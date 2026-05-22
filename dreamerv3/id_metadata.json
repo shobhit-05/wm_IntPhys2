@@ -1,0 +1,3544 @@
+[
+  {
+    "name": "083861b17a8b3f4bef7e3aaad0b960318a5ea19ca98258fe2bfd700d11343e3d",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "66a6de26327fe7661ac4fec04da96d0710d2177afad8babdc0dd27e71b19db1e",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "0996318787089d31d84af8327bb044e77120cd0a6c6eb7425a179f932369146b",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "e02457c361240408e2d2417b5b56594052605dfc7fe433314f6768f053adbfdb",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "6da0a69fafee7301e2de79b798fa6c761776ab34fe3087eff30230fae7cc0196",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "0e2b9d1ce271f9808685173712c5071f36173bac9e81f84f38ef7aa4fd931d4a",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "9b747136a92a1480769dc62caf994e5d6da7b8e333c9ab4a6cf0da3e1aedf8de",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "8b2c654f070baf7b0898e2414863533a01abae0bd9102c9912fb8fc8a56ab69e",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "5c2b4ec97fdb43008e6711262fb74f9302362386e914133b8502dbd704ec7236",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "e9e46d920dde8614ef2a9ab7631f980d4b6c7969673517b136f69e921ac071a1",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "69558fc766fe2d185e54f54a5853516ac139d7e99bbe245292894426c009ff49",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "f56265fa076960d5566581d71f90cdc45c388ca76796a7582a383d6628b0db94",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "1222df32fcf705b31de7bb657a95c4676e4f32c43b986f0a3d95da6222cce92e",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "163b62fb148e95950d257ee23178e333a256c475089c2c4609951d8e19e74c0e",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "fc19ad3c022c299c68d53a8b371ea3f2cded015e9cde3cc03cb956040dc55db1",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "4290feb21f1611ac1661ec65a23187f1ef61740f7ec75a5f172c10c7e149c05d",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "e42b33f945f285935a95ab955d720d063d0a32123b58b98aef7a59e6b1a8c615",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "96e30cf2317932d7d7cfba412b5e0679b78e0f2b787739c29a937ddc2423d0a0",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "abcd8b553e38c7c5a05a86b771c1fe2c9005ff8b485c5ab2020a242886a26f9d",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "8d74bb344adc2e582df68bcf21fcb9d2ae47f484c9d92c5907c5a2daa85db4fe",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "28440beabcd7b5a0476b0b3ea4d5c10e295eddf42e5941cd90b65cadd593a5ec",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "4cbfcd331842209edf70dba8640c9d7ed76584f6ed3ac339168a1f0d1bd1e890",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "bbd0ca4a4c71b8b2c8e4b87b2a2741eb33e0f3eaab7d5ddc63e9a349ce163157",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "74eb28d52933a98889f871249380dd6eea5217a73260341006335ab61a97e831",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "8558d9be4c612523fe853a23ab74473c65c382f28fa1482f7a83d7ba34a3c6ff",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "311fc90782be48de3fe2b44efc6716647d372a05a87a758409b3fa5d76d65d10",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "bb710c8543f5e3178fca298e295a89b638ad7234d82034c1c728673a141cef56",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "d3cbe2f5a0487cd2f61a63fbae84ba1f28f19d70d2f5c2119edb68d008bcce3d",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "c0d5fe94e25bc6ea8026ce68d40c0b4a528d1d6999d6e7df4911d83cd8ce64c0",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "6de8d0db1b8b014c262b1c9da42ed7d58153d8bda0bddd165a3a2a12707d5959",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "ac3133d6c700806598ebefbd4119677fa5d3560c24ef1672c44bef1829bc960f",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "b5fa4e5e9749238f2179df4a8ff0449f3ab5ea8d75e8ca6e8189946b35de0408",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "be3111c6d9416877cad0bef2e98cf2220b6c6898507185da0b66adfe66ca4452",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "0e9e5372d8d1b2240817eb2fa7e059672e30483f8428b7701317c91b26bfc7aa",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "8ad6ed8bf5c3386ce620c8d96c15ef3c4b5dd728f915559fda23d18742687278",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "69cf2d9aa1fd7303fd27311c96be23fbb5dd29d890ceab94fb2ffc952659e32f",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "42f17bdf4c0bc47dd69b9fd6b0b9b39ba5854c1ecf79b5942ae994ab6c27947a",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "1c4a5d80e8d2884dd28288852222dd1c7311102cb9fc9606a6f40a805802d917",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "d62b063856a3971c7c8e745d5a767853b36e0c0e42c1f01fd0702ba1fa06937c",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "19c71d123e53a3ab2f3f65ded20e927a5bd5f0eada5abee6af15cd7dc52e4e92",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "51c4ce467dc5934bc65d82e9e9c1e51cb665e68ad09c3f090634bc1e592a1cab",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "c2a806e6b3de42f993ada8ba897ac6979889633ebf07a8b57f4855652135b16b",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "13da28398342da0354df0f9335f4b3db6e8c38f403220592fc185837d01bc5e9",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "600caba51ba5d4f81469e66fb75c92e9273df62efd815cbfe82fc9a3945382ae",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "01a4f78a7964727b4b9c5c4203ba1351e4d405f6275aa608136a888054822b9a",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "b422a01f841b889e584bb9fc604ac252a550e94557730d27658430bcf5fcee4a",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "3090638b5ea837b8ac5798338a1626a3c325b1203b89fef515da6bee2d84e0f7",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "b12944af215c324b3a9d22fe5c173678a0c732ff35fed317bfd17619857ce4c0",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "c92fb5f457181fb1cde5d6b58c4d961a91eab106f3f3158c8f0f2c50b5813f86",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "3d7737fad31ab6351baf9f7ee65b60d520ec0bab2b63886739555dc5bc259936",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "922472d7f270f44deaaef4ee42b12d8e69bd2cc2fcb4d9840c926ac4cb540764",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "f582c9e60f63a12bc545f6431f6b40a087e74740352285f910548482be001327",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Easy"
+  },
+  {
+    "name": "995e338425302de7901dd87b513ca88f72a44b69ffe580e319cf588754f4d60e",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "68950acf11d48d7917c6bd133ed0623939349bc6a096a7185993ad4edee47e6b",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "8c67b7baf0d0bb850c09f573059118d6c9cd7d1ec6c40da39341c421af843da0",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "be7ac9e3e2ef5c8209d68f21611dd640e4716bfcf4a890796eccb55c6fbafdbc",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "138211cfd8c0b794ba995e2b21041a9b221cdb0ae8fb2b0010e8f7a2ab33475f",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "905b755853e393de0895c107f94eff8f6b91efdccd116ae21fb3c229abc94b16",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a660e36bc82e05bdc091030aa5026266e65d227d5dcc60941a1be5db4e78e623",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f3e8905d9c9f76483589dfa6e4f7e9132258be57be924e84c05c1631c99842fe",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f5974605ec116e78a4edc8c17c0f809cae394682c3a61b3379495b8e09e0b4ac",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "687ebbe1597e8d8c4035a441ce572a0bdb947aa36469f3c367f93a0d3399851c",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b584436476e889e7ca35c2b7cd6204b6da4f1cbd598bf8b2e78defc2e422e243",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "20748d38940cf102d705f577ea5848e76a5f1d76fccf3ae7d2daa0ca4535c5e2",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "12e87463f18a7fb30e9fdeb376a14abb93e840496456848aaab4de5ffb1e6fa6",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "391ed3de0c90515729138f755712901446f2a924d9a4211fa4f00441cba70fd7",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3908ee9dfac81fccc0b67599d2592b025a7d2caa495eef8f6dfc7d8c65bacfe1",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c6a55f6de2d443567beaae887ebe4d88f286cfc262817039f1a77b7b1b2df31a",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e0dfcff406c7c30840800b7277474bd77a73bde54fb96f25b166624731410a13",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7a57d6f32184a924b3e0206f8ea4bd4e1dcdc6c75dd3d813d4844ae8e107ac04",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "943d00a354eeca30619759735e9aeaceaa8ef4429db32fd3e8864719fae1344d",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b6ab6b570b37ea0da3d64e5628e1a57e7af44fa13334fb725286c6cc7c1ed272",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "40fdc1249bb518596c109a4993835f7c7b92efcaebf56d3484030854d7cc08da",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7eb31487b580cfc9e5dce0fe07c9193507a26c5574e1117437519376dd3969f2",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "69cf950c2c55dd964aba9187e4ecc45ee83ce412e3a21d7b03cc9ed552fe9a78",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a3707729c60e6cb32ec3a581bea37338a9acffa76632fdc85ae7b0e0a5566526",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "cb746a7413021a60bb786df3871bb056c14cb345c66f4245857c2a3ca089f140",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "4244feececd5aacdebb08c44b59726c72878896722ab99fd96651af987303a0f",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "cc367e867ea21a280df6260779dd380fa6a73d72dadac585fb8e4ecea33149ef",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "4c5949850177773c0fc6a421344412d9ec824f922e6a2ff8a628cde5c53377da",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c25a079907090fcedddc2c04cddb7a3c13290d410c9dadccf44df2ce7653345c",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "057e16d57ba145932651b0b7cb53c34d7954b9cc03e91ce20fa84ad403d24afc",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1782cda36606b0f51a8544911a740d0c7b4297a77c39aa04c42a2c9dac6c2e1e",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e45c92c15d9be8600ff81d5f3a10a6187a5b19a0630a597c2ded976c6f8f2aaf",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "eaa1ce033a348d89b72cf7620e524983f554cecc4789dff90df885be2bdad45a",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "602ec5fd6c005bf420bf9e03334aa734460c4fbab734f1a551e271d079ee44f4",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "eb38558a2cb0f3f529324a7bfa1d7d9c17be4a52773369ec2e57f25ef77f2620",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "ea84a0887471377cb4a601b8a67102151d340b380769cf0dcd4d6d4a768fc384",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "447f82c487fbc271002a1f7f390c0a0e7066de864aed7d83d198eaee700336fd",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "af618bed69c3822b03e29549a3543e92c8bf993488d54e753c669e6759984b24",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "62722005780b76a05023676a7e48b7cf0199d21c9770bdca2b459b767f6f886a",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6a8f271e7af68e6b36bd53979f2d14a4c62263ac3e16299f759d6507a7a5806f",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "9db189d01d74b0c9f0cf936c72d8d0f9638a5655e4f9505be5d502ca5c2779ea",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d0e0676715b9abd485ec647ab7d35e3f0b8758e5eebf2bf1651a43e758614fea",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6a5a8a4f1aceea3695ad6c61482af0d858e3f234574d275599ce7fb924a59a5c",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e059baf945d5a6fdd88115f1740f74e671f2814105cc36b56b69af461a3fa5ae",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "2c22df2321d2198edbed3fbac5ceeb5a9354eaca19e159b0d3ab2add9dd61b8e",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5c0a86914ebf050691fbbc97766ac2e57deaf70e735225f1559d49143305ffb2",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e24456a3ae5ad247371fac40fd8eda1d808e77094d62f8e9baf011ac026e7225",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "9f5ac5b50c746bab7774929cebcfcf93fbe2301261ab599153322c51b1f486c3",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "891710949ce61da9dcf47a8ff83ffa2dfd4b1a9cdb8e590a2c445656a2c3947d",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "adf91dce95f9cddcbe13159f046752db77a1896453961e03ad06e94fab684da1",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "169563f9cfe9a860692ab27b50d182bdc512e9a3a24a46431ce6842962ca1478",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1d71f0ffa16af52a45bd69aaab5ec7b1fed57fcb5763089af37b720af582edd3",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d3c198d161d4aa5f77641a009ab647b486d2559ef20d5f1513c84d64d218a1c1",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3d810cf16a5bd8c9c12231353142f9b288d919855724b7eb16e55090b997124d",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c79bc7980b1aeca2125ad9e7d48b2cc8212b56df5ddbefcb49d71d0bcaeb36c8",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e77c16509a7963bef32ee79f3acf9e4d8ed1a89720872da5c8e4b0598ac98349",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "135810d4a72481f712bd342abfb5bb9204f1f3532ff3689cdfbb0047436f3bac",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1b5d77851eab2b568b993b5810c94bf4a84f6ee6024b2477f1281721294d484b",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f38b00f6e60fa4e9b3f84877f02d858a2d2dd059873bc3573d0b8c68ee2896ca",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "bb4685021666f27d6388467549b437f37e4544816cccf2910f02c4107c78676e",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "338857ebc71727cd5a8b1b1eda524242c14843577015cdb95179b6711b41ba11",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0381787a41bcf5862efa9c526f397a1bc15a98ef25bb51944f3bc30fd16eb8d4",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "29bb6f59e9c8765baae0c990187513b0de320037b1d1408540ebf5ed046387c3",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c308dfea1753c78955f5fe9585752bda4b8099c970f342582b92d318a9e7b97d",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a600f4ac3311188ef32e0935d7b1abffa5bcc0c4047942a5c30a0f91d52446ed",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f97d88f014164bc25854df318df8738b29c7f7532a0a531e1b029ea727187005",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b96ed0d5d98ec171b0048ed500614ba7c3d6a5a316c84c472621966e4a3be88e",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d94d4a17781db090cd103c4a31f64d8ad2dd60fdb82095c5c7fc0739a7004829",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "48b168ca1e31fd3e6080f14030ff6ba1d8de578da7a9bc63943903bc1a020b3e",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "8efa26d02a546d8e80578a365661b038f19f8a7cdcdd30755372223ae467be73",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "cd6736300dc251eb8dd1d86b54534b52cafee43bd68e9f927a5aac6a1c7249df",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0f8eb818bd7bed48614d6572dc54034f8cb40c3f616c098fcdc95273d624f878",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "16071c0bdcaaf90b2569992ab57754a0c89cb39d6257d5f1fe1be01ec0deda8e",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "69c70405df234dd16bb57d94eb9eb504e292030a3b73c4ce495a90c8ddc7e87f",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "575f0b182059133e2256a6b19cec4b835a9c67e359a8cd8a617933033696ab26",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "05c99568a5498bdceb607522a776365f4f22326aa2092c2eb100ac57ab4752b3",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "db990a2fb632234e4690f920e5f4b56806765585cc95996f0cff5dddf5317fac",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d0dcce9768fef4fb69eee0db31a391e3e039c8b24dab49ea610e1349fc04a088",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e27791affc0d85d89374a10a6e8f0930a2d0a009c0eaffd1a087928da0ebd1c4",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "253669d6414066fd0c1ca625716d672344c3be36b735f56da5695bf8c3ba42ac",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "cfcdb0a2e0ba28f1ede79ad5d28e61a7ca91fdac7f8b57ae3087c1f8a9278a66",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b8721a63a5771e6da1b9ff2989e5ee20ae6b40f93fa8ecf821d40fdc98665b93",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "dfe65086cc42940784399c5e383c98297107ac72779a1b34c96f1958e67b9a0f",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d2a57ab15ffcc7d3dc80c1f2e2a1573cbd11ece8d19b944e631e5f9711d9a0e9",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3399d5edde82a550d489390b14c3e08149e42eaf188dfa09c07c7164e5af9880",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0d76b0db92f6864fb25b831589af1d85f495da771af9ef5c85b4ae247b56783b",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7d58767ffb9d1beedffab7265c59911dcabe7eaec17e66729b7d2bff5ae0bd26",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b8ef9a57b5fdc369c94d6e10f32503e3f70484ad1a30527c1609401f846113e0",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d2f17e7e3e4abc384f80dd7646135848eeb640b7d345677c11dc11d1f9821b07",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "518d33fee8de76a6b5bc231a320315d5fa05ed4f83250d3cdb399d37b61c743e",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "9ae66307897128aaea5ddfdd51892a3c9d6ba89f17d7b44b607f601132cf9c27",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0ac5b45e1b50d44db7f342a45b334d9c8dbfd012fb06b1e51f4a1344434bcb98",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "45967df4de4628d9b269352b152a55a4b12a2030834c0b715a2b9db018eced33",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "9f626d0937a72ab59982783d68ceac6a2f9fdb07b4bdc00f99d2d9e09804a0cc",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6de22b6769adbcdf0ef1be6253f8cc5418e0c394d35771f463be632c6349cb01",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "40b790e8068d476218fd14a7d2217ffac7e8dd408df7b8f17d490f9f230e584c",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b614f7931cbb0c349692f4ff2a57490251053befaec0ebcec7e49cbb72b3e427",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "55a4c9ba6ce1eee32204317447bf28ca00ab981ce5f599dd394c30d53af01f45",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3ee0ada755d11c2d2343d3da73a7e9ce0fc93c84910db01adbd3a6e071cbe7b8",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c7b02ae3ce2f9c8112f8f9e57ae1931bef0abe4c969b45435c3865913c97da5c",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "89a593fc7a156a65f7b693b05cd68956925b5a4c5c68b2543f95a55a728e8e53",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "bea91d70cc78a260145b1a3e960a26443370d4e401c97cdd810e79ff0caabd23",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "aea1c46ab8601ecf3a03dff8c3e6108c0f1908ee0a75eb908dab95c8f10ffee0",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "89c5923fd9ffffab6e1460ac91309bbbfd03d19f41a08a9d8bfc304c25ef3b3e",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c320551c361782002426f09a84c8e93f9d3fbf573774a0c679e7c7f2a0a06320",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a24a88d52c9cd805c7cf28681118e9f0d31c7bd9f07db90fdb680c23b9d8b3ca",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "4b0b930f37b32d4fc5945bdcf911d794aa4c98ec6ccf115173d5bec1d74e5f48",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "40e53df1d2fecf0d24e0501a59b69a90a80b044074b65cb6b939340d51cf4bfd",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "10cbf2ecd8d559f23f0e76ba02ea3573fe12816fdac3427533ac93eff6bae6ea",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5c6f78915da978b6e79d3a53103e46f758643e8ee06881ad3c2b6ebd8dcd091b",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1b7e4519e38aac798004216286e6748ad02e7c0a7b86035806fc7c7b729b5be6",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1f635e609b78ac6a0b60c9a2afaeece3407cf5c0f32b7384c15acb0b0b73c973",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "723151be65fce52d66da353a5bad38fc4ac52639dc085b9c59a542fc43550e84",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "86feb4b114518f4561cea3ee55f209d284a279802481365275c53c8bea6c2bbf",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "33db250e6f4f7f8b8190e9e3281660b5616318a484696762704d2623074d62d5",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d17d01fe503a44ff9b7de931afcc4255c00023081991e4375400172b11990cd2",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c509687969a46b8ee90113e0d88ad2a39ea438e7b1aa50552e88229df1db163b",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "ff97d752d3f85186215e77e018d9497a6a2d744cec6dd32b9516fe89099598da",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "8034e1021d7f796c3deac1e193c63214579c34c0496647fe7b297a1344767937",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6b50b490538dd22957355190fff3ef2261c1e38d7010d66cc2d8fbbb2bd28c88",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0add65242fd50825c5c3c7172623aebc56aa0c959a343c719cabc0fed3b22f09",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5b7c057294dbf13c4302b747c1215ad94b6abc5505ed5cbaf8f790b36c140d8a",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "38c6574d191d910e55b44ce8c5db26bf7f92479d778ce8493e0b8b461884a068",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "36530927e8fce5b792c7341d08989073f97b0517f4122abc5cd035393e62864c",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "2eb700c36863f59a994730c1ecf6f14230a7f15d04054cd7ed032db173c627cb",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0b9bd952a7a823176aae98ad97a4a425394b8e43f1320f618d127ff1e8bfae94",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "17df8a24eddcba65a836fefbf4ff27cf349bfc47d96ad9c422780046c9d5f964",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "ca44bd6f25ddb461f60564fd6e3baf95f4f3cdf273d10e59df729ac8313c8e8d",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6d7c99bc64bd055736a414d1d93eafb8b02fd5efe2ea1a22ca62fd16c4d5fbe3",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "cda41e6c6115187088345cabb591fe5e56273fccbfbaa09dcbb971069a51d32d",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "8be3561206464089522ee24e5d65d944289effad8df77be1e1d51fd41249d4e3",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0dd95d15d6368e88d231fda1a329dc92592040c628ccef64b6202e227f48942c",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7564993d86a82cd405fc84d15534586f409f4a834275fd443f2beb2117425f81",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "96469303e3d7a59721e75b3e604b5975c4fcb2759287a4345af94a3ce9581a6d",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e40af30878e19eaabac0ecfeb7654b844b830771357635b03af5f09fb1fc649c",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "2d71c4ce1323eeb92ec1239286a974dd24285931f8e158099b92dfb03fe7e5bd",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1e01f9b6aac83f0a8f20231c8704941fbf15060fb3ce453279aec74661d3f503",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "238744758b3f89b523b74cbff830e15605427cf45ca3e907332640bb35790645",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "053141d1afd784c708610220cf140a7048129e5cd4819f2a7bded6b69b5f3bab",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d4ba68f63e9cca091e79a65a8a1181963bd4c77148d22e776981993775858eaf",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1c14c973c4039ba76e30b54bb249bec4058dc0eef50dc9e9c09d9abd2eff591f",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "2535be14aabd05e8072ac2a89c875dbac30b7dc9347db71c2f7f2fa90880c96d",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "15660a01d0da7716e38af417e52a61f9c31148b5b4eabc1850b49cab6692f40d",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f084a168738c8c9f9595a98353e9ff16bb7d1e661987ff13505762e88741b68d",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "06e7bef929988bdfde967f9ff0777c8f02943249a23bd2f3f879ef5ae676efc0",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d8e23aee137bed6ea5849ba79ed1a79f81f04dd0e709364734ade903aa7dccc6",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "463d8917b88bc0846146f31dc8550de18a1075f8ad922ca8cdf2f60bf68eb389",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "618f6fe978d5e8efa07aee001e974a32472d99419ce0750e6e531e97cd324015",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5d7d3c161038a6eb55fb0167873fc5c0bcb98422f48c5baf05c3fd513b4ca618",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1e679cf4237a09bca42ede86243b2f097e7f84ca714018ee3f7ea58ebbe0b0aa",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e853c91d323330848e8f6bad3617cbfa2afa2cbc3698a7ff13db2a4b45206e73",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7fa2f0ef29977cae919a48ff365c050338e494a850dd721083315044087819df",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "81b5789582502b0fb3437abe875dc19b2097c9ab8f57124466e8b1c2ab913e3b",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "433588f036b02e29e539d62141827845520d2b83d05c87c9e0849c3e59c13f5e",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "813b2d9fff602b400c2ff923ac0f186599c408133ff6ac146f39af5316e985ef",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d4670d8b6e7c6637ad236c5f3a3b4861b8129698ffa27a4e78edcaddc681eff4",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7faa38e394de878998cf235802e44a86fc4d6cc6092cd2bb7976f58320d562ff",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "c04ddf75dc7e30b9ae93a1167fd35681d18239f019e13a414655c873e46b91ea",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d386d692a5ed8bac3cc7facb605032f2de9a4a8a19561d98c1d9f7a760bdeea2",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "277f8147b3a594c33d313f1e8c7000d545990379dc9d6c1fb13b626320474259",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "efdc091fa3331fa34f10ae4c08ba7fd054df5c2439c1331b8fe4942c4c6f52e1",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "56d63802e768a1a7a2a2f60596d61668170662b5a0da1ef1b627998a0bcbb954",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "b4fe108c05e8cf7806501ceb690343056df0277e7f229be50ab05c76016dcf55",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5379e746e4231cdfc9b85046e601c43ce5a797005bd5f17e947086a352f4b2ba",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "eebb916391ab0cfd525f681688d9aecc593b6ea7d1ec09af61c785794abd32e2",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "aca6ec7e5484728e0e43c27cc324261c1331887070f6242c4a7722b25c1a8c27",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "f3da1fee9d5bde9518f9f22cf737cbc601c6dde311b3af13689cb87ece46f7bc",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "19106a00496b4b5b291670f8ee463daaf95ed17f958e3ebdaa383a7e197ecbe6",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "60f9ae3cbb37ac987544002964edc8deb45bb5ea7075de700ffbeee5094b6b47",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0dbf29e70d6635783e530f85a8244bbc1c20023c2ea436f728ce18471c0f66f9",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "78415f5a8b7849dea8f270abf53d37bfbcbcd00ee4ac989b68cf9c2a58ca3c61",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "032d6cbf50b60ce6945fe899d48aab68a9a8261d8eea5614d8978da37669dd61",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "6166be0c85966802959d6579ddec7b4688df288fc3831fb08a958b6d52017ed8",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "90148e35612fb58e86c66b56d2231cbb6981fd57d237af4eb9f1f62851f8be8c",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1196c2cd68ae478556d3c4ba8a555387999b90cd11b55956b5134dcfb25c142a",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a193e9c4cad20c18e2d26cde21b574036509eb993bfa9a1f21432701f8972d7c",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "90a77bdf4193821490acf956919204f972a73779a488d0792118ab3cc0f1bb3e",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "efb886e62a4ce46a3b67ab1dcb0aca748f0003509b2af3f142e5be00f3d7a021",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "874e017a44720bb57465ea61addb083b49df73d9053837faf0c108f9978f664a",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "26099f756e4d921af5d1b757497f60fdc39f074db42d55f86b56802b2fac5948",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "afb40b3827ce24b46d0e77a7eb3696816e4434caa1926c5a39396e3f92ef3065",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "0f80d0ded8bf9872e4b0a930b7222e015caac4bc0d793c76ec229a1ada8cdb02",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "84f144af8fc2677a1e554f04b2e385e61c4bd625413466f31e4b3fe0fd968e52",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "e87e71357e323d7a545b56c2a65f580e1b94b95f5f188939e56bbb17e844c277",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "a53eacbcbd145c4661ad9248d7f0155cf7d89bd85c8543645ca26db3299a1f26",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "4b7383c2c004bfaa94bd3c70d72d3e368e3a0dce4734a8503465212dfc17425a",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "d886ee6373a26de7224c74dab409b6dc2fd11036d32f778fffdf741a50f1e4c2",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "04fc8ee6b1e29caac3b8d8767c4ffda7b50412a4a959711188b735742383f750",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "1fa7c34af1249d82b1cba35a72d5277ba7e5333d9b4f6980c97afb1edf1a86c3",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "872b21663bf88103bc1b0768f14c00315f3d2b0e82531078bb7375bcd8ed44d5",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3d89f3f3e83d81d756a9a62ed1ddb8e6013f64ed5eaea5b9ec47ad9b518030ce",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "5128118325df717cc9999eb28a6847b42566f8414f544232c02fdc0cd61234c0",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "7c249631156ba31b66efdea2c881bfd15125b597ddbf2ca38d72b1e86eaba689",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "64ad256c44f2302592e3499cb2d851cb31f334b37ad5e2577c3b3f3995fb4f1d",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "da2fda1055bee7ab7d229a5833fc7ee46bc9962b2eaa4b2904bf8cfe65009af8",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3751c5dcedf99258a33463fd4842e2dc54edcb529daec6d243c1796a65f3a9ac",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "9d636c504fc5afeb6d2eeb5f2bfed3a6e3c3883c2f24d8cd8dd4758fee56a590",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "336809b2bedc99a74a80efd2eaaaa161e3656956a4d516b8f02576a7e3f6a665",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "4d9a30dcabd361d2069ee18e5490b56211788ae63737f6ce1a60653c5daac131",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "bd288ea0f50210b30182d1335aa4e218eb50786c1b520cf74ad85d18b0750828",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Medium"
+  },
+  {
+    "name": "3fb245c63a5781f6f4f1dec2dd3f5c9a8facae1c56de07c812e9eb7415f8d634",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9aaf4adb4cfe06ba4b1d4cf1aefc7f105c812a719d9b677dc056ae97bf5f748f",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8173249b58d1306c539033bfee03c82a127e4e6e454910ef45537a289ed94f36",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d0830bc3c8f01235bfeba0685fe57790611706e03f2105e16eafe8423563a5a4",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c9e05af1c29162ef56f752a93ff7291b3fdc1f49bc1619efa26d6843e7f545b3",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "780fe29f730d2d7acb1743f886b5901e599c97b3340f50b952a9c560c38ddf1b",
+    "game_name": "FixedJumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ecb29276eb646c724e83ebcf8b343d1a7c6347bff2cd7420d1c00e5ab71c5b2a",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "bd0ced8cffc642b497d031f966d3300f1ee7d4634c933350e9e771f9df60cf94",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c99d46743f5a5760705af190faa69e1bacae4b788c1e44c901c47b78de7ab7cc",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2b9e4ebde2c9e655246b113db55ad3133103699211b4b12f98c33db2dc49637a",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "622f2a20333a8aa7d997075a99e27deb93dffc83c6a33431fa2572b4c3008dd2",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "da808df98e41ca1b56fd9194681e53e2aace12c30ba7f297e388c09c43b8d41b",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8e2d98ffd205748420b5339d06d18e482f015d919afdc25303027933f0e0dcc6",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "acaab01518fcf93266701b74e11f9a32d643a71f06a9f9181d358dfc8cf78630",
+    "game_name": "SolidityFallingFlat",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "04dff7b8e811bd497ce1e88346e794c5e100e8698952cd57bdc1947d8516769a",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "3f0c9e69a1829e4cd7311103c6ce6cf29d1f5128d0078de94af616f7d9c921ac",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "545d90569da0348c2b7c728d77c3836fb8e39aa60eeeead134641986ae4c060d",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9e7a1649b07e38ae0e4d0825016b057e79e29328d192d6659e846e74a630c2b7",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d05677fe29d2553c76348d45fd11e4340e727e0853a4de6c3d6c0309df73eb76",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "e2261b2a693eb270f441b6b4ec204e6c0cc5a2a51a39700ac4557ffd6b8f477d",
+    "game_name": "SphereFallingDownSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a414841e501042edd64291a6ed9bf9a985f62fed15647f63085bb72e34f039cf",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "753659868d8811b5dfb44f02f633b2d61eb3353a5a6550690e586fd4ba329f63",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a8a911809f3245a7b43f529d761d2698f122ece565540d80e0170c25812bc9ce",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "0a1dce7d446df30e14476fb8a0877b6f07f455c569fb55610dc2bd4100ca3b13",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8d63ba3bb078f076368694f643ca145fe76d0cfe92145063fee6ace5a07448c8",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2ce1d2aabe8f7a5406e5665f98337e650d046dab7e9fb2950b382685d2fc4597",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "6d28412721989213ec14a4220fc6fd1c44cb5660b45e4ac16f2a3268e1ae25fe",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "29313191cd00e03111c7c351bcc74be52456ecf4204ee49139dfd238e48b8271",
+    "game_name": "FixedMarryPoppins",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "bbe246226e7e2538592e2d4f5a062d537193119dc8fb42cd0f56f27747a2d803",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "237cf0a9b32215249dc2b5b36f2f86d7b958b297d91fc5759d2b9e5119e495ca",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "e7c0f0ec770e41587a3d9f81f2eb1d3238d30e9c9188b763eaf1bc9dad893974",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9e9ed7bc2c5d9bcc1ec4f366838de28f230dcc7a5aa9fec7c4f0e1a136ad9ed5",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "73443250b4e47d65ee4f2ac2caf64ab7c523004b54972f5b864b9a35e1dcc9b7",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7213bc33b047be2c7f377e5e5b554f32e8f756a24ca49efbe1ca9ea3d2537598",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "0888ee8fb44d138e9b5f5de2414e473777d3f9578c0d8438c998e064b89e2475",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "75909d864e361f8796f5de0890823e2d2a344d9e42c43f79d9b3744cc974d2b5",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a7be3417b0dfc61c226e93fb85f17e8f82ea7ea3cbe4899bc45bf1cc469e3d0d",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "d60ae8971655320982852bf769693d79ea7ae2ee0fc6437235471ff809b33536",
+    "game_name": "BoxSoldity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "06a0a4f3030d0a0d5fb28ecbcee951d4ff8c0b4bd54ed6cc437c6f14bb99e368",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "01abadb6e2a7e757c8b5bee1d9b12341ae5717c1937b5204023b2216f3604eb1",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "573f5be3ea7448831d1f2ea2ef5233734c955a5cea622b313916a1f5ded3d5ac",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9a43fc373daf89dbb5d900e8f3df74b022ba2f2ce0777ec12ffe375b8a6c38ee",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9895771e31706afccd784d165f6b975141d3d4b2013e0948012756080fcc0b0b",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "235a3b536424fb6d7203420cc8a305a9527978a280d63e57e69370cf951781c8",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "092ede317038f8e1c213842f1cb0872fab334f639ad11e262d8a5f0752f1bd45",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "750b40a5eb33d8d2a29e4524598ca29f59b685851556f3c3ba406e80d13150cf",
+    "game_name": "Scaffoling",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7dbca8c06d1f83fc04497df28bf7ca8139b7c0cf792c4970d6236461e1aa4089",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "761398d09aa97884611fd1252218f31c0a62c4112f0915c944f109d0451a6160",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a81c7a9611542f988c31679c62fa67fe6c31df91cc013b9ef255b1c480debace",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c2953be7e837f1014f913c8f5b16b2726a503528821ca8cb6175f5d011493a89",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "22b69cdb50571d61c61c7042f8d8c87ce549e7b86be1fbb463be7f3658c32338",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "6e44237ff081345cbb4152ec21b037aea2150a933e3e7b61a0e996e149fd15b8",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "8a78104b84b142325ec9756f530cdb45e0c9cba3e840c0f1af7fd2e720582731",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "3eda4eba7bdb2c382ef9c8d56a2c40e023409c4fa03b8a9a24b119bd45028799",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "17cd9d91a753c702b02192eec8f8a4b6945fcffdf8123f92804482de50147d25",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "fea7f9879c1983372ac0a597805d1a8739293f681563eec9ae29d3a0d8c6dd5a",
+    "game_name": "CameraSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "e0eba25316e8b26e584f0c96fb28639153c98d028f17422323a7a0d40ec4ba02",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "dedf19b3ad1109060b7618a59a49ff13f6642dcd252620308cbada727f21c8e3",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "48d4b04bdb053c167dcacf6cd1d2ff406fa2282f507c87ff8a8d989b8b28348a",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "794b79e0448a1010e8f2914cd7098f30bbf16a0947f1091854144fedac853358",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "6fbde8278ff9a2208cc4d658d53c417a18af9103af83f93a4ea066875a3d0c52",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "f2326fe4ebf56e573d3e50c65665a9b081a42ac9a7b7f140a1bfe7480d0b0366",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "837d1871ebdc64852788552d9d3a9a50530c9504ed572ccdc6718d24ae0d0d2c",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c54703bdc00654c1004e3ce445989ebc5eca7477d458d0298f30d8bab5f1bd9b",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "16ff47bcb1d4d7385443a22d5f9ccaf8075eb817cd424047e6a8e304062a0fa7",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "3bf6eb22f58fc53fb84d958c51fb6cc3e0ffd950339c0eb43e0c99f28acccfd6",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5c93a17f46df94f4971290709e46f1a2850681aee2c3e721d862f20dbd9c1211",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "f4a4bd2cd447b77ba77ef7d5d03c6338e6431fe04d3ae543858fe76be9db711e",
+    "game_name": "JumpSolidity",
+    "condition": "solidity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8cb8917ed2cf76fa955ad60af58437a64358b2102d84bc53e1dcad6a89fc61cb",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a77ea32e4cc92a14c04b34e4f45cd64fba3a82604055c8e54971dd993d6993b3",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "86d8faca7af76a35721dc0e9a9a1cb66337da46068852b6e16a0174352f2688b",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "267710b75cacf03d5c160b7a09b2434f0f7199da391e8ea00514353bddc4ecb7",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "da9b377f9d7ca7fa00672e901abd930d333e599fd3976ab39d31f1754603d458",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "dd8777fa1f83d901ae9eb3c467d7c74c01df15e9b80eac49acaff410ec9e229e",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "39a5335228bcd19679a0c0799b15c351071b6ec0789caae0d84782babddafa50",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "44e8f0632e3c548a10b05aaec7f08de272af8b25a534175a989aeea34c3601b3",
+    "game_name": "Box",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "14ee35ab38bb8404fb898e1995934ce07386903f7f2934f2dbb42203688cf18d",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "546089ee7bb15a9dc6799e29f219795101ee3e35e89f0bc4d7b1bb5367adcb7d",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8cea59b219a39fce8ff3885226e8ad085bb10bbb6e3e160b636f765c7d341b14",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "023a7804c368f831194d1da87d5c24b93c9a5e95e5941a97c5922928b0b16d15",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2b8051d9ad04261a81f0b2faf22fdd575527db1944e1ec48f858956432de2842",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2e76e8944e7a514bcbbdaaa4749b7a52f213ee2c288240246bd377a5b7a66b90",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ca3e63b54d1abf4eeb86e961cc774dbaa0c2411b141416b1f69d5916aa64154c",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "50be537fec9aedbb31c98534723d109155ea3a4e89f985d6325b83eb4655ae09",
+    "game_name": "Box",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "f240043e2628afa51655417c00a9f8390ada5f2be24fa5bdea6f25ebac6a696d",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "730f9737891b34f8e3cd2283bd2da45814f7a9e78fe08a62e531c8f1ae80d6da",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "37dcf598f77ae2fdc80e829b83a6a43277aa46befa28628ad66731bef2b1d3e5",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "300f4afd7e5e65f90df405ab9ba01c274f844d662a6715d8c9400a69f1e82f7b",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "054d4f27f541b2806feebd882f3d1f8d942a46019564a997cce7a76f2c942d37",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5a69f4582f6e946ed814dacb1aa14c9c82820d14bbbfd0f82e6d0d413beb821f",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8f17ec48bffc2afe9af914c5fde9970cfb6b09d4713f78d839aef5e97f762892",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "04e2a9705a1b8428bdcb9943210edcb6567cb35aa4390b0195b3015cbf4e408a",
+    "game_name": "Box",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d887d956625461ca8f0da8afe47f1692062cc8983027c572c38735a82942abd5",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1399af7e89a1108c9cbdecee8d8c0bc719120bedac750636a658faa17567f82c",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "035aeaccbff2177f1cd7f8345d81de369aa35e0497610bd9b255f8db318cae86",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "025a169284bb0ebf6a01c17a528009fbe57b3a17cfca165af8b4dcd0b39e51d8",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7f2137da3c826209cd8f90a284be706cf32ff16c770773286bf216e5c62b2e96",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "280498cc280e033a2330abbcfb504b905e09f459173651a1d462eacd170ec9d7",
+    "game_name": "MovingAroundOccluder",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "ba8fe56ebba85a1de5985ce1096b7a686c8efec8e9d2eafa80a578744bae0060",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "e8f96a9153d83fd3652274fe409d792790f59045ccb755e71c4155af5c01e4f2",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5bb77926628d33cd4d616a39c9928d49e28625b0c937f1176e0e90217ba7f688",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a436f075619078a159f54d52549b861467adaa2a89d2ee44626fd90429c4b1f6",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9204bd502b581f09dedaa810bf15f54fd8819663e3d12e19478d68ed8b87a4f8",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "cb5a77a2e9f14067618dadf22a07099f9b8bd069f6990e6503475807243d21f7",
+    "game_name": "MovingAroundOccluder",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4a7688e24f1c8f6277b7265d4b08bbc05ef5e6f0420adfb33802e8f30c770874",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7944177052c9c8181d87b340356396c1548da8e39bcca0d12ed888f12e68976d",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "b81f5acefbf2ef86a28f1ce350f325e88d243d59aca0dddf9aeec3be92ed8daf",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d72f329f04d025f07c83144689ffd5f2d3299be21dbabc71b05c9d1a089bfa2c",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5da78c7d053d75cc8756593d622bde06481ec78849110f3e86de14d4f6c605ce",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "28913f224c57fca6f4aa46a360071b307835e8726c09afe905c4cf88c0ee7627",
+    "game_name": "MovingAroundOccluder",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "796cf2b7f77043745e25817c22fec3b3f83ae079de2e4f591cbb104c5f89af53",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5998f4add3af076cae8ff81d04b595a5033f3e68428278f0b82cd04d8619660a",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "572c9b970b841cb359cf8df5d43dc61c48115b15d4ea409431444d7a872dcb63",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ea99e68648af19ec1789c656f4bfeee20bdf933fe675c78ad28dd7e05229c0a5",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "0384a3bdda2300914460a586cce1d0a5dca7df5841fea6fa4679cd918e1bdde5",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a70db97dc4a59bc5f7b336a59eda942cefd38043f3443ae588bcf9c47aa21305",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c38e7faedd42775399564a05ebe8cadee61cc9f45be6a47e654609da518499c5",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "fddd6ac327220d56abca1d13cc0e781b1aceacd8d66c045c9b5f2471f0a60dc8",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "293d34cbbcb2bd44490d83d201de1f1be672fb38164f5804398fe8179f3bd935",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "9175c7b48bd81716578ad991e95fac028e5eca0f3667da5fcaaa78399379ecde",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "a88592af947cb87c093dfd81d69abe920faad0dc1e40a95eb96bf08d5edb02f2",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "482241bd7da65ddd89d44e9f0c20f83bfa8317d69661d1cee766cc90c19e43fe",
+    "game_name": "JailStone",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "b6d4c06d5067698cd59f308f339050fb34085da6362e77a6f930733fc5cf3421",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "8e41050f412ab4737ee369eb783f915e3f7be5cc722d458c6cbc670304024971",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1107d5f328fd1d9ade148d3c68660e43e6de2d4e65b73ee9217f7cc097265175",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "0ee7090ddee2f370f3d67dc5899d7e4d47910e79c98cc8280181e00e138fca14",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a11ca197eb99ceb0668a57fe7a2ebcbad1bf81c28272fad81a655a758ab35407",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7630b511cf2edac3bb47b712af1bad06fdeb1a2b309249ff587249e920b4f5bb",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "65c3778f85b2d3253d76feeb91d821ff5a79b6389158a9a64c1cee55562930d0",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "beba5e80220263d0c89f87e429cff41cc25c8a8ae641d490cea1b19d0e3ffda6",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "b5e1280e5ebbf31d46d52c841a86e5ca759a84d07dcd195e83e7a65f3d8da9ce",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "1046176cc09624192ed5022fd083426d49f019f8048ada79045ab9f4bd7b65dc",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "1a5767d98dae33de5d1259c3cf4423baec4e42965bfd662d854c9ed6f16b465a",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4e31508efdd16d9a8bd99cee3d1ec0e66bdd2c6904ffd2ac3340335eb43da256",
+    "game_name": "JailStone",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "660f5cbc336054712a28732ff820a5d8e87e7b0a31e4db550d2860eb9dcbb2f0",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "6425c353b1acd15d58b75569123a05ddf2d6a0df243495a29a788f63e63455b6",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "3eb03c8afff17e7c49efb916f8932e47679d8bbf27ab2e80f5b029eba420cc6f",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "39acaae32085a0e468c0c6cd3cfb0688d2f0fddc8e01ee054058dfa779d9f470",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ee89b1b50f1468ee75fda619316186493a351414315310cac27edabe5e2329b5",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "7a2209eb0ed1126a088be196366259ac667b1f101c27d22e702886c45b4c0824",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9ba999469154d5f601a2c041f829253572b8dc4a1d335a140c24a2d29ede1194",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "42806e7d0968440c05460f13816246fa07dc07afb4bd3d8eb2d6a9739691f5b9",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "dce156565788cdb65bc2be26b12107570ca302392b91641870ee3555dd04d60c",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "c016efebaa2c092ebefdac3b4f8be01e381f6cb7adb68361347bceb8310fa269",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4a406dcdde618ca470a607c41bf5de438a9575c60566560733e83abd14a863bb",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "ef38997888704759a6e7b767853ab67dc45dc621a50dda1e3b809150f12018e4",
+    "game_name": "JailStone",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "9330d38bba5d56872445096d0136faf1ab854f3c4bdc4ad8dcf43f58dee3f4d4",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "8211887a5b4213b6234b4e28750a9e5896a909aee4b2def8aca1e2a0d2fbed1b",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "33ae41587ddfb53b6589a6dd7759e699045a468d390527edc4cea769c097e520",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "e877859e0655d969d38bf3888d788dca4dffd0d0fbe1f0c2fd1b607c48eadfb5",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "92736ebe4a3d2b0254cc0a185ab4d011f0728883adf4b5cf03cab0e84cb1bf03",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "b863febc1e09968584cdcc682d426c32a532bde158b176ab8059c790c3fb6be1",
+    "game_name": "PrisonCell",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "d8426fa9e4be085bf317f1ccec9a6b84597a2c2007d3a6d6b141c4fbb18f1ed6",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "921712765a416593c3c567adf4ccdcadb0cefb8d64845bbeea0dfb6d8bb4866c",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "d147e9d5b2cb6d7abd64c1f61a1ecea8f65555225243794aa902a7a80586075e",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "cbe7f931e6cb1852342e24b966c315ebb4d1dd7da34398cbb03afbfad6cbdeb9",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "9f1dde55f5bf7c756a88918934286123959d0a7ffc19089e04bed2edb94f09a9",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "b60bb2343cf64c6fbc9b9d7f04975ffb7e6fd5b8a6868acd97ef3ea7d9435e21",
+    "game_name": "PrisonCell",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "46f2d89cf1583e31aef1645abf628895bab0ea3f4ba4ee828afc004a1e3a3839",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "92e90104a8bae5c411b4f25cc3f7499421457593d78442e9acf2798613a66a83",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "e10a88bfed19211d45a76adb747fd756f3cdfcef7dac8cd628486f7345377765",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "1765ce13766b6480ea6e86bf14df9f9b465a49ce8b642c5f2763061087b2d31e",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "08c22a49ea310238626059b30a04624f3bfda156c87ae236e2fa44d07c73c069",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "8803c3766022c0483bb0b0a3093de600176b1f30e8208f8d965937e4ee03f308",
+    "game_name": "PrisonCell",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "236d6f21bbfea45993d948cea934022fbfd92193c05c4757917b805c5707252a",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "0e819813b17101b3ea465de855313f554f4b933f5ee257360d341685395f07a9",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "32932587022a6ab638e4d12ce16cc62b494a1412c9734bfa80b1f8667856bc1b",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "355184642c6c6376410b7a5d494ed8fe14272644da15b6fdbfed7f2bcf36d419",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a68f60d990f0c7373a93d6d7766214a6a47606a7342b9daf48ee04ef47483b89",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "0c2783c5564673261ed9ff005afd2322a236226e23bb478a7ca510d4dc364207",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "ab82289d362058e528ea230eee8d4ae14da77a2012e0ad4d7773bab17cb726f3",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "ddb0df8083b17a9e217d822bff15dac69179976d85bb57e7be52809d3e3b2bfa",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "3e627edd2410401aeb99a1b2e7c35e72fa69ce9fe1600e0714b5d177440830cb",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "afd2ecb268b51ff5c2c84264af7222381e334ee32424489651e42e02225bad78",
+    "game_name": "RotatingCup",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "cc186586edaa0c557409abb3964d977ef8228898b54a146c61a4856a83fe9b9a",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1771bb49c28dfb068cfe5cf1e39ba2d14874253c905690b697f830e45b524b0f",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1b9074e0ce55f2bd77ddcd64bc7f9d0a5b63a3f5105b2b97622493959d870d85",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "af420074a0132ce246bdfbc13c7f24eb36a0792820f2379d7df5b173eda5ede9",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "09acaff581f614a7308ae1ca5e1fee6689ce857d5500046145716f208398eb6a",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "fe75e20a9f2310239f016e2fa8bd3440804ea42ec51c0dc0aa134fefdc38969f",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "36c54fb7151dab8d26c51e5505efb5b7ff4b3eea97bf5f0e04d7fd59d8132177",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "db35758f43c72a47f1671b955bd957693c6017b7844398bca34b912c8e8dca00",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "c84e6e48f834706948c9e432219ed40970bc4125595d45d347d81d34b8ee4796",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4a223671eefbc2cd0f27f19166b32324a2d8cacfef1a5f16f4c1a0f3c7bb12e2",
+    "game_name": "RotatingCup",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "8ef93ab9cfae3cf10f0971a3256ece86e8239394ba7390f205450c918cff7fc1",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "26ab6ff9796c771d24be24b5e0fff6d50f3139ffdc506b3f6441167dca5a228a",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5dcb6b4a72cc150e092bf7c7eced7e8f053a32f361ac7a4b5e0ab6ad989cbef9",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1b0bc631ccfd81bf348c3caca88c024a8585864014d290bd0ce2300f8c2f6bf3",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d122fab5a89d54851ba8c9a2e6e844f3fc0784e1a9b4cd6fb0102c4c912fd26e",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "10016ee86022157510a454d30f0f20976fa3c6b9fd7846b33b1c2bb1b6ca7dd7",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "db09bece6b564fb5038d1189bbd0731691e70888712a9ed416d74551d8bd3ac5",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "a8b92f2572a02f528890d6e857dfcae9fad1dcb17db7675a6304f1003ca60cda",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "95814f30cb1dbf50ac6cacb28553656b3a416cc843865980aa94a461bfb00ee3",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "7697af9d9b6ec686b1dce17544b2cb2c099669eda7f8e2e0b01f27941de3565e",
+    "game_name": "RotatingCup",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "03ab813637dc0ab0295f4ba813c1e5cd338d62142cfe70220fc58db7cd784ed5",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "80b491030bcaf3afdee742241fb1d799e0f92ad82f7f21ed12a349dcb5dd0f2d",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "d166742c209b067116ecfb067d36013f2dffffef802f85b72759f41438afd644",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "e097c98546970b5905cb55b05e669cfddd7e1461d6c304fbb56aae59c36d2d02",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "a5107a340ef40c88ce2fc9b51eebe7593853b1cd045c158f66ae42094befda71",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "3bf662b4993f5895494e8f746255104d5d7c0b575d3d66135bc1f70134b0d34e",
+    "game_name": "Restaurant",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "bdca8d05b9de010a27e8f95ff3650220794873a00dba4c772bf22c9b1d573bb4",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "9535d8012ec67a62c6273831c35e48016441802acddba3c3533125fb2e852acd",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "060dd649ccf6ed5f5095f77eda5bdafa714b66f1789111c5a51c0eb44e9ee09c",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "2232ed665c424e11d8fe0e72a7d8a0198fdf8aab74c28c5d2dc6e6d3aa1e0349",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "ef82b3c0977bb3c88ea1ca06e2ae8bc8aa67e4d13f8e572341c6dd303c0e88c1",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4e6654de0d2451557bc291377ad8bcc0548eea90dff3ad14e1f00866ca55e5f3",
+    "game_name": "Restaurant",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "2eeb21f61ce1807da39ada47098b66bedfeb3ee32505f78a358c7921d7ddfcb8",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "fc785e2ff531b5104b3f9ed1535aa0c48239e53865e24ccf421195da73e40a68",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "4599df2276630675e27a1d24ce98a3fd11ca827a1cf44f3dddc8c6e267396837",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "0720cddf31e431f794a03a5493038718ef1bda13bf2f58666380dcc722d84369",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "dcfe8779a02e216d7a0d9964683e263b960971f9fea89fe139243a85d0e76e4c",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "9fc4e0153981cdd25045f76b6bf678eebed781aaa7dee85cf6a2a828936c7ee0",
+    "game_name": "Restaurant",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Unknown"
+  },
+  {
+    "name": "a725ea8ee8de0e81c1bb5f602c1fd1f9ddabd8b5812ee535c4b7cee089d5b291",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c4f2c57a5ca7d3cbac841409de3caa75f3b0f3e7a3dc7b32377ca9eb6913cbd4",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ba74d77b55eb9bca8bf3e89518d6f775012ef68155b6f55e8b795407817f22d4",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "a476dcbd66186e568ca72f3e066f90e1972486d344dc81c21602de57be13f596",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1657a4e3b50dd170ed90a22237610557b8414cea1f1f9fc2c190c83c96792304",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "5c3d70650ec90e4920e2da61c1b2f2531e7abedb3f7136e2c666b57cb03b5706",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d7cebc7b84441ea7aea980fdf5a732db9c4d43f55ca5cacf38df15ae4e227a9c",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "cd7f37ebec41ddbcdaf5d508d2091c541f38298f89fe053e755850478af1c775",
+    "game_name": "HotAirBallon",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "daf309043b9375067712c335393994a974b8429a38a1dccdffaec6f189c0a689",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "85c5b9d31a5b61a8e48918cb5d1152676f74f6bebb1777fa451f530e8c748b53",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "25cea854618136560b7eef454fa213be2f24616db954c9a8ab698ccb531b1c1c",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "e4355d4d03451a2c6dedf2c738223e3d6aca6f740dabeb47569a7fd712404ffd",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "73dba92ed2b38d2a5d69aaaf8de550b25953ecf8456126518390094f298aca89",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "662410b209667c8c68e7b0638aa1d96967c65769b296244eb6f92c568b2820d6",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "4b601904369baf0dc5228665c670f6315fdd638d0ce02ed23d34acdca21e0e5e",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "1f3a56c6d384ae06251c89a0750c948b7c04ddfc89583ad80477b5d60d15e5fb",
+    "game_name": "HotAirBallon",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "fa8950b8ef803168159c0ae4541b7de613da59abf6c2d23e4849f8d837f77f42",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c20e0dd0b3ebaa18a257eb0a8c1401094617e194fb52d108966911ba3103db0d",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "4b69efb2d2cebe0f3c9422a0d41be5b2ef792de9a973d70fa7ded69cb1da1a69",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "22ea71cffe2cd5a35aa29ec9d61d3c4fe11924ba3e9bbf1d897c93a11e4acba0",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "21b115e7e3c28bbd02663cdedfa70cec994d71d8f1ff001e6b82dae698943844",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "413fd56e6ebecd75459758c0e6129bfff778ae103a8ca9d75441b3ef48e83275",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2dd47968d4e32ccb7f8380ca5feb8c00c5dfab928fa04c95bda5a275de80f562",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "2532343845ea34b1a65c4c6ba3a0a83fd5fd6fac2b1493889edc974543d557da",
+    "game_name": "HotAirBallon",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "9cddda7cf55d36a20533e4f756a96890dab46765ed129e9289ed854450490970",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "73dd19367dbd94b7f51f9d7498df2f1392ca14ce4270945b9c372fd3cce30df1",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "def2da1f26c261211bf393100f03c54ebc2022442a8607d92c5d532a91ea5b15",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "e2b6fbb8613060f7dee8e60015481868a76612efb8ea75748d5d0c0504c8547c",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "108ef22995f6d08c4f72bdc6a4ce845a0e765e2786921472f2e8bb859428b7f9",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "832182b7e82b9527395452b62953ad75671cff5cbd030dafd6e9658fad3f4e0f",
+    "game_name": "SphereFallingDown",
+    "condition": "permanence",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "b283bfc10b944a2935d1c87531aac489a340f5b175131d9ac0eb5ec4f42d2688",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "4b8074034c6892f9bbed7decf2f2a96b1b906653d9dd4652e6671ae6243e5e74",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "ea635800c1ac384c9d7bdbda01b791aecefe9a4792d8012face50e0753101e52",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "fc8936a9a5617125330ab27569051c7bac21e14d36407b8a16d263852dcadafc",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "b59861279a590a5173a221b012d2b54cab8cb95f426bcab7a9f0e01d7f4c19cc",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "58fc52e59be3a5afbd7f02e89a4995354e5f68ad9c7ba1c24f9ded7d35d3ad32",
+    "game_name": "SphereFallingDown",
+    "condition": "immutability",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "12caa65786fdea8dc63bd63e2366a676bb20ac62be3c4634e010e0bf75870644",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "500efd4d450f95a9317b7859ce820e1b43b38a72910e18cdd84cd1386c8a1641",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "c348b028c5388027662be43306033956538394d9092784775e15232b5ffd3a67",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d833404a2f844380be4f470e9b88d844cf3d2a7ec275cf8f0dff843a474408c0",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "04b12306cdd2dc5791e66f3fcc7fd49235fcaea0abfffdba39aeedfbcace2d5d",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "1_Possible",
+    "Difficulty": "Hard"
+  },
+  {
+    "name": "d7ab82095005ade21934b28e795ce714a9393daeb9a953d1f785325f9ba06fc0",
+    "game_name": "SphereFallingDown",
+    "condition": "continuity",
+    "type": "2_Possible",
+    "Difficulty": "Hard"
+  }
+]
