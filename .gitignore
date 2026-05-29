@@ -1,0 +1,27 @@
+# IntPhys2 video dataset — large binary data, do not commit
+IntPhys2/Main/
+IntPhys2/HeldOut/
+IntPhys2/Debug/
+IntPhys2/IntPhys2.zip
+vjepa2/IntPhys2/
+
+# Extracted embeddings and model outputs
+*/outputs/
+vjepa2/outputs/
+dreamerv3/outputs/
+videomae/outputs/
+
+# Conda environments
+conda_envs/
+conda_pkgs/
+vjepa2/checkpoints/
+
+# Slurm logs
+vjepa2/slurm-*.out
+dreamerv3/slurm-*.out
+videomae/slurm-*.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

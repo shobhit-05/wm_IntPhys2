@@ -13,7 +13,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--intphys_metadata_csv",
         type=str,
-        default="/gpfs/projects/infoseeking/sgupta01/VideoMAEv2/data/IntPhys2/Main/metadata.csv",
+        default="/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/metadata.csv",
     )
     parser.add_argument(
         "--subset_metadata_csv",
