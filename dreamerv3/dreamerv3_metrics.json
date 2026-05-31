@@ -21,24 +21,18 @@
     "ood_mean_frame_mse": 0.009632647968828678
   },
   "dci": {
-    "disentanglement_fullfit": 0.14004544216638842,
-    "completeness_fullfit": 0.05328957164436163,
-    "informativeness_cv": 0.6551446321102699,
+    "disentanglement_fullfit": 0.13904373290328215,
+    "completeness_fullfit": 0.06213212858501853,
+    "informativeness_cv": 0.7391380314502038,
     "factors_used": [
       "condition",
-      "difficulty"
+      "difficulty",
+      "camera"
     ],
     "factors_skipped": [
       {
         "factor": "type_intra",
         "reason": "not_applicable"
-      },
-      {
-        "factor": "camera",
-        "reason": "fewer_than_2_classes",
-        "counts": {
-          "__MISSING__": 506
-        }
       }
     ],
     "factor_reports": {
@@ -67,6 +61,17 @@
         "n_classes": 4,
         "cv_mean_accuracy": 0.8557561638516793,
         "cv_std_accuracy": 0.0170230640123653
+      },
+      "camera": {
+        "source_column": "camera",
+        "folds_used": 5,
+        "class_counts": {
+          "Fixed": 208,
+          "Moving": 298
+        },
+        "n_classes": 2,
+        "cv_mean_accuracy": 0.9071248301300718,
+        "cv_std_accuracy": 0.025470782372354877
       }
     }
   }

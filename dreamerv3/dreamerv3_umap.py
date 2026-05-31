@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """UMAP visualization of V-JEPA embeddings, colored by ID/OOD, condition, difficulty, camera."""
 
+import csv
 import json
 from pathlib import Path
 
@@ -19,6 +20,7 @@ ID_LATENTS_PATH  = DREAMER_OUT_DIR / "id_latents.npy"
 OOD_LATENTS_PATH = DREAMER_OUT_DIR / "ood_latents.npy"
 ID_META_PATH     = DREAMER_OUT_DIR / "id_metadata.json"
 OOD_META_PATH    = DREAMER_OUT_DIR / "ood_metadata.json"
+JOINED_CSV_PATH  = ROOT_DIR / "VideoMAEv2" / "outputs" / "intphys2_main1012_pipeline" / "aggregated" / "intphys2_main1012_joined.csv"
 OUT_PATH         = ROOT_DIR / "outputs" / "dreamerv3_umap.png"
 
 BASE_FONT = 10
@@ -42,13 +44,32 @@ if len(ood_meta) != ood_lat.shape[0]:
 
 emb = np.concatenate([id_lat.mean(axis=1), ood_lat.mean(axis=1)], axis=0).astype(np.float32)
 
-id_types = [str(m.get("type", "Possible")) for m in id_meta]
-ood_types = [str(m.get("type", "Impossible")) for m in ood_meta]
-types = id_types + ood_types
-conditions = [str(m.get("condition", "")) for m in id_meta] + [str(m.get("condition", "")) for m in ood_meta]
-difficulties = [str(m.get("Difficulty", m.get("difficulty", ""))) for m in id_meta]
-difficulties += [str(m.get("Difficulty", m.get("difficulty", ""))) for m in ood_meta]
-cameras = [""] * len(types)
+video_ids = [str(m.get("name", f"id_{i:06d}")) for i, m in enumerate(id_meta)]
+video_ids += [str(m.get("name", f"ood_{i:06d}")) for i, m in enumerate(ood_meta)]
+all_meta = id_meta + ood_meta
+
+print(f"Loading canonical labels: {JOINED_CSV_PATH}")
+with open(str(JOINED_CSV_PATH), "r", encoding="utf-8", newline="") as f:
+    joined_rows = list(csv.DictReader(f))
+joined_by_id = {r["video_id"]: r for r in joined_rows if r.get("video_id")}
+
+missing_join = 0
+types, conditions, difficulties, cameras = [], [], [], []
+for vid, meta in zip(video_ids, all_meta):
+    row = joined_by_id.get(vid)
+    if row is None:
+        missing_join += 1
+        types.append(str(meta.get("type", "")))
+        conditions.append(str(meta.get("condition", "")))
+        difficulties.append(str(meta.get("Difficulty", meta.get("difficulty", ""))))
+        cameras.append("")
+    else:
+        types.append(str(row.get("type_raw", row.get("possible_or_impossible", ""))).strip())
+        conditions.append(str(row.get("condition", "")).strip())
+        difficulties.append(str(row.get("difficulty", "")).strip())
+        cameras.append(str(row.get("camera", "")).strip())
+if missing_join:
+    print(f"WARNING: {missing_join} Dreamer rows missing from joined metadata; used fallback labels for those rows.")
 
 print(f"Embeddings shape: {emb.shape}")
 

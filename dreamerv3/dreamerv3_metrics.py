@@ -29,6 +29,7 @@ ID_LATENTS_PATH = LATENT_DIR / 'id_latents.npy'
 OOD_LATENTS_PATH = LATENT_DIR / 'ood_latents.npy'
 ID_META_PATH = LATENT_DIR / 'id_metadata.json'
 OOD_META_PATH = LATENT_DIR / 'ood_metadata.json'
+JOINED_CSV_PATH = ROOT_DIR / 'VideoMAEv2' / 'outputs' / 'intphys2_main1012_pipeline' / 'aggregated' / 'intphys2_main1012_joined.csv'
 OUTPUT_DIR = ROOT_DIR / 'outputs'
 
 # ── load dreamerv3 latents ─────────────────────────────────────────────────
@@ -57,12 +58,30 @@ frame_emb = np.concatenate([id_lat, ood_lat], axis=0).astype(np.float32)
 
 video_ids = [str(m.get('name', f'id_{i:06d}')) for i, m in enumerate(id_meta)]
 video_ids += [str(m.get('name', f'ood_{i:06d}')) for i, m in enumerate(ood_meta)]
+all_meta = id_meta + ood_meta
 
-conditions = [str(m.get('condition', '')) for m in id_meta] + [str(m.get('condition', '')) for m in ood_meta]
-types = [str(m.get('type', 'Possible')) for m in id_meta] + [str(m.get('type', 'Impossible')) for m in ood_meta]
-difficulties = [str(m.get('Difficulty', m.get('difficulty', ''))) for m in id_meta]
-difficulties += [str(m.get('Difficulty', m.get('difficulty', ''))) for m in ood_meta]
-cameras = [''] * len(video_ids)
+print(f"Loading canonical labels: {JOINED_CSV_PATH}")
+with open(str(JOINED_CSV_PATH), 'r', encoding='utf-8', newline='') as f:
+    joined_rows = list(csv.DictReader(f))
+joined_by_id = {r['video_id']: r for r in joined_rows if r.get('video_id')}
+
+missing_join = 0
+conditions, types, difficulties, cameras = [], [], [], []
+for vid, meta in zip(video_ids, all_meta):
+    row = joined_by_id.get(vid)
+    if row is None:
+        missing_join += 1
+        conditions.append(str(meta.get('condition', '')))
+        types.append(str(meta.get('type', '')))
+        difficulties.append(str(meta.get('Difficulty', meta.get('difficulty', ''))))
+        cameras.append('')
+    else:
+        conditions.append(str(row.get('condition', '')).strip())
+        types.append(str(row.get('type_raw', row.get('possible_or_impossible', ''))).strip())
+        difficulties.append(str(row.get('difficulty', '')).strip())
+        cameras.append(str(row.get('camera', '')).strip())
+if missing_join:
+    print(f"WARNING: {missing_join} Dreamer rows missing from joined metadata; used fallback labels for those rows.")
 
 n_total, embed_dim = emb.shape
 print(f"Embeddings: {emb.shape}")
