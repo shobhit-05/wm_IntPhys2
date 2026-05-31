@@ -1,0 +1,78 @@
+{
+  "model": "vjepa_vith_rope",
+  "embed_dim": 1280,
+  "n_possible": 506,
+  "n_impossible": 506,
+  "metrics": {
+    "silhouette_gt": -0.014099152758717537,
+    "silhouette_kmeans": 0.5464092493057251,
+    "centroid_gap": -22.908123016357422,
+    "inter_centroid": 10.464183807373047,
+    "intra_centroid": 33.37230682373047,
+    "nn_gap": -0.018329264596104622,
+    "nn_same_mean": 0.03883254528045654,
+    "nn_diff_mean": 0.02050328068435192,
+    "knn5_accuracy": 0.2845849802371542,
+    "invariance_score": -0.041936300694942474,
+    "equiv_cosine_mean": 0.009894004091620445,
+    "diff_cosine_mean": 0.05183030664920807,
+    "latent_temporal_mse_gap": 1.554936170578003e-05,
+    "id_mean_frame_mse": 0.03520280495285988,
+    "ood_mean_frame_mse": 0.03521835431456566
+  },
+  "dci": {
+    "disentanglement_fullfit": 0.16167400294310694,
+    "completeness_fullfit": 0.031189683017704424,
+    "informativeness_cv": 0.722002200220022,
+    "factors_used": [
+      "condition",
+      "difficulty",
+      "camera"
+    ],
+    "factors_skipped": [
+      {
+        "factor": "type_intra",
+        "reason": "not_applicable"
+      }
+    ],
+    "factor_reports": {
+      "condition": {
+        "source_column": "condition",
+        "folds_used": 5,
+        "class_counts": {
+          "solidity": 146,
+          "permanence": 120,
+          "immutability": 120,
+          "continuity": 120
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.34787419918462426,
+        "cv_std_accuracy": 0.016748347240853022
+      },
+      "difficulty": {
+        "source_column": "difficulty",
+        "folds_used": 5,
+        "class_counts": {
+          "Easy": 52,
+          "Medium": 200,
+          "Hard": 168,
+          "Unknown": 86
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.9051058046981169,
+        "cv_std_accuracy": 0.03113885833974035
+      },
+      "camera": {
+        "source_column": "camera",
+        "folds_used": 5,
+        "class_counts": {
+          "Fixed": 208,
+          "Moving": 298
+        },
+        "n_classes": 2,
+        "cv_mean_accuracy": 0.9130265967773248,
+        "cv_std_accuracy": 0.043141605729184795
+      }
+    }
+  }
+}

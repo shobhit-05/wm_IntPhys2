@@ -8,6 +8,8 @@ vjepa2/IntPhys2/
 # Extracted embeddings and model outputs
 */outputs/
 vjepa2/outputs/
+vjepa2/*_surprise*
+vjepa2/*.md
 dreamerv3/outputs/
 videomae/outputs/
 
