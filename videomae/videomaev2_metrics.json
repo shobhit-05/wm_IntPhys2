@@ -1,0 +1,78 @@
+{
+  "model": "videomaev2",
+  "embed_dim": 768,
+  "n_possible": 506,
+  "n_impossible": 506,
+  "metrics": {
+    "silhouette_gt": 0.01211609411984682,
+    "silhouette_kmeans": 0.1937638819217682,
+    "centroid_gap": -19.845888137817383,
+    "inter_centroid": 7.318925380706787,
+    "intra_centroid": 27.164813995361328,
+    "nn_gap": -0.0700259879231453,
+    "nn_same_mean": 0.11915489286184311,
+    "nn_diff_mean": 0.049128904938697815,
+    "knn5_accuracy": 0.45652173913043476,
+    "invariance_score": 0.016363531351089478,
+    "equiv_cosine_mean": 0.3380110561847687,
+    "diff_cosine_mean": 0.3216475248336792,
+    "latent_temporal_mse_gap": null,
+    "id_mean_frame_mse": null,
+    "ood_mean_frame_mse": null
+  },
+  "dci": {
+    "disentanglement_fullfit": 0.17643829823725837,
+    "completeness_fullfit": 0.022661161107282498,
+    "informativeness_cv": 0.8880152721154468,
+    "factors_used": [
+      "condition",
+      "difficulty",
+      "camera"
+    ],
+    "factors_skipped": [
+      {
+        "factor": "type_intra",
+        "reason": "not_applicable"
+      }
+    ],
+    "factor_reports": {
+      "condition": {
+        "source_column": "condition",
+        "folds_used": 5,
+        "class_counts": {
+          "solidity": 146,
+          "permanence": 120,
+          "immutability": 120,
+          "continuity": 120
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.6699864104057465,
+        "cv_std_accuracy": 0.028072809715567092
+      },
+      "difficulty": {
+        "source_column": "difficulty",
+        "folds_used": 5,
+        "class_counts": {
+          "Easy": 52,
+          "Medium": 200,
+          "Hard": 168,
+          "Unknown": 86
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.994059405940594,
+        "cv_std_accuracy": 0.007920792079207928
+      },
+      "camera": {
+        "source_column": "camera",
+        "folds_used": 5,
+        "class_counts": {
+          "Fixed": 208,
+          "Moving": 298
+        },
+        "n_classes": 2,
+        "cv_mean_accuracy": 1.0,
+        "cv_std_accuracy": 0.0
+      }
+    }
+  }
+}

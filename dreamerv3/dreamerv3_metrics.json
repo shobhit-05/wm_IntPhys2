@@ -1,0 +1,73 @@
+{
+  "model": "dreamerv3",
+  "embed_dim": 10240,
+  "n_possible": 506,
+  "n_impossible": 506,
+  "metrics": {
+    "silhouette_gt": -0.025901172310113907,
+    "silhouette_kmeans": 0.31405696272850037,
+    "centroid_gap": -71.29745483398438,
+    "inter_centroid": 16.5377140045166,
+    "intra_centroid": 87.83516693115234,
+    "nn_gap": 0.0015883594751358032,
+    "nn_same_mean": 0.06362303346395493,
+    "nn_diff_mean": 0.06521139293909073,
+    "knn5_accuracy": 0.32608695652173914,
+    "invariance_score": -0.00020265579223632812,
+    "equiv_cosine_mean": 0.9629839062690735,
+    "diff_cosine_mean": 0.9631865620613098,
+    "latent_temporal_mse_gap": -1.1185184121131897e-05,
+    "id_mean_frame_mse": 0.00964383315294981,
+    "ood_mean_frame_mse": 0.009632647968828678
+  },
+  "dci": {
+    "disentanglement_fullfit": 0.14004544216638842,
+    "completeness_fullfit": 0.05328957164436163,
+    "informativeness_cv": 0.6551446321102699,
+    "factors_used": [
+      "condition",
+      "difficulty"
+    ],
+    "factors_skipped": [
+      {
+        "factor": "type_intra",
+        "reason": "not_applicable"
+      },
+      {
+        "factor": "camera",
+        "reason": "fewer_than_2_classes",
+        "counts": {
+          "__MISSING__": 506
+        }
+      }
+    ],
+    "factor_reports": {
+      "condition": {
+        "source_column": "condition",
+        "folds_used": 5,
+        "class_counts": {
+          "solidity": 146,
+          "permanence": 120,
+          "immutability": 120,
+          "continuity": 120
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.4545331003688604,
+        "cv_std_accuracy": 0.04542564958935673
+      },
+      "difficulty": {
+        "source_column": "difficulty",
+        "folds_used": 5,
+        "class_counts": {
+          "Easy": 52,
+          "Medium": 200,
+          "Hard": 168,
+          "Unknown": 86
+        },
+        "n_classes": 4,
+        "cv_mean_accuracy": 0.8557561638516793,
+        "cv_std_accuracy": 0.0170230640123653
+      }
+    }
+  }
+}
