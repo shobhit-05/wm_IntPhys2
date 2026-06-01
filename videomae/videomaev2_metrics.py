@@ -39,7 +39,12 @@ if torch.is_tensor(emb):
 else:
     emb = np.asarray(emb, dtype=np.float32)
 
-frame_emb = None
+frame_emb = bundle.get('frame_embeddings')
+if frame_emb is not None:
+    if torch.is_tensor(frame_emb):
+        frame_emb = frame_emb.float().numpy()
+    else:
+        frame_emb = np.asarray(frame_emb, dtype=np.float32)
 video_ids = list(bundle['video_ids'])
 
 with open(str(JOINED_CSV), 'r', encoding='utf-8', newline='') as f:
@@ -63,6 +68,8 @@ if missing:
     print(f"WARNING: dropped {len(missing)} rows missing from joined CSV")
 
 emb = emb[np.asarray(aligned_idx, dtype=np.int64)]
+if frame_emb is not None:
+    frame_emb = frame_emb[np.asarray(aligned_idx, dtype=np.int64)]
 video_ids = [video_ids[i] for i in aligned_idx]
 conditions = [(r.get('condition') or '').strip() for r in aligned_rows]
 types = [

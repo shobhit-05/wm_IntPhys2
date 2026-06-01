@@ -26,8 +26,15 @@ print(f"Loading bundle: {BUNDLE_PATH}")
 bundle = torch.load(str(BUNDLE_PATH), map_location="cpu", weights_only=False)
 print(f"Loading joined metadata: {JOINED_CSV}")
 
-emb = bundle["embeddings"]
-emb = emb.float().numpy() if torch.is_tensor(emb) else np.asarray(emb, dtype=np.float32)
+if "embeddings" in bundle:
+    emb = bundle["embeddings"]
+    emb = emb.float().numpy() if torch.is_tensor(emb) else np.asarray(emb, dtype=np.float32)
+elif "frame_embeddings" in bundle:
+    frame_emb = bundle["frame_embeddings"]
+    frame_emb = frame_emb.float().numpy() if torch.is_tensor(frame_emb) else np.asarray(frame_emb, dtype=np.float32)
+    emb = frame_emb.mean(axis=1)
+else:
+    raise RuntimeError("Bundle must contain 'embeddings' or 'frame_embeddings'.")
 
 video_ids = list(bundle["video_ids"])
 with open(str(JOINED_CSV), "r", encoding="utf-8", newline="") as f:

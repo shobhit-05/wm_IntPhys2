@@ -227,7 +227,7 @@ def load_checkpoint(model: torch.nn.Module, ckpt_path: Path) -> dict:
 
 def extract_patch_mean_embedding(
     model: torch.nn.Module, input_bcthw: torch.Tensor
-) -> tuple[torch.Tensor, torch.Tensor]:
+) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
     with torch.no_grad():
         b = input_bcthw.size(0)
         x = model.patch_embed(input_bcthw)
@@ -241,7 +241,20 @@ def extract_patch_mean_embedding(
             embedding = model.fc_norm(patch_token_mean)
         else:
             embedding = patch_token_mean
-    return patch_token_mean, embedding
+
+        # Derive per-time embeddings by averaging spatial tokens for each tubelet step.
+        sp_h = model.patch_embed.img_size[0] // model.patch_embed.patch_size[0]
+        sp_w = model.patch_embed.img_size[1] // model.patch_embed.patch_size[1]
+        tokens_per_step = sp_h * sp_w
+        if x.shape[1] % tokens_per_step != 0:
+            raise RuntimeError(
+                f"Token count {x.shape[1]} is not divisible by spatial tokens per step {tokens_per_step}."
+            )
+        time_steps = x.shape[1] // tokens_per_step
+        frame_embeddings = x.reshape(b, time_steps, tokens_per_step, x.shape[-1]).mean(dim=2)
+        if model.fc_norm is not None:
+            frame_embeddings = model.fc_norm(frame_embeddings)
+    return patch_token_mean, embedding, frame_embeddings
 
 
 def collect_run_env() -> dict:
@@ -328,7 +341,7 @@ def main() -> None:
                 raw = torch.from_numpy(raw_np)
                 clip_cthw = preprocess_frames(raw, input_size=args.input_size)
                 model_input = clip_cthw.unsqueeze(0).to(device)  # [1, C, T, H, W]
-                patch_mean, embedding = extract_patch_mean_embedding(model, model_input)
+                patch_mean, embedding, frame_embeddings = extract_patch_mean_embedding(model, model_input)
             except Exception as err:
                 raise RuntimeError(f"Failed on video: {video_path}") from err
 
@@ -341,6 +354,7 @@ def main() -> None:
                 "sampled_frame_indices": indices.tolist(),
                 "embedding": embedding.detach().cpu(),  # [1, D]
                 "patch_token_mean_before_fc_norm": patch_mean.detach().cpu(),  # [1, D]
+                "frame_embeddings": frame_embeddings.detach().cpu(),  # [1, T', D]
                 "loss": None,
                 "loss_note": "No reconstruction/inference loss in encoder-only forward path.",
                 "shapes": {
@@ -349,6 +363,7 @@ def main() -> None:
                     "model_input_bcthw": list(model_input.shape),
                     "patch_token_mean": list(patch_mean.shape),
                     "embedding": list(embedding.shape),
+                    "frame_embeddings": list(frame_embeddings.shape),
                 },
                 "metadata": {
                     "clip_len": args.clip_len,
@@ -375,7 +390,8 @@ def main() -> None:
                 f"[{idx + 1}/{len(video_paths)}] {video_id} "
                 f"raw={payload['shapes']['raw_frames_thwc']} "
                 f"input={payload['shapes']['model_input_bcthw']} "
-                f"emb={payload['shapes']['embedding']} -> {out_path}"
+                f"emb={payload['shapes']['embedding']} "
+                f"frame_emb={payload['shapes']['frame_embeddings']} -> {out_path}"
             )
 
     print(f"Done. Summary: {summary_path}")

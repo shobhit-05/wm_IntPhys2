@@ -16,13 +16,13 @@
     "invariance_score": 0.016363531351089478,
     "equiv_cosine_mean": 0.3380110561847687,
     "diff_cosine_mean": 0.3216475248336792,
-    "latent_temporal_mse_gap": null,
-    "id_mean_frame_mse": null,
-    "ood_mean_frame_mse": null
+    "latent_temporal_mse_gap": 0.00010744854807853699,
+    "id_mean_frame_mse": 0.03385108709335327,
+    "ood_mean_frame_mse": 0.03395853564143181
   },
   "dci": {
-    "disentanglement_fullfit": 0.17643829823725837,
-    "completeness_fullfit": 0.022661161107282498,
+    "disentanglement_fullfit": 0.1764382982372582,
+    "completeness_fullfit": 0.022661161107282567,
     "informativeness_cv": 0.8880152721154468,
     "factors_used": [
       "condition",
