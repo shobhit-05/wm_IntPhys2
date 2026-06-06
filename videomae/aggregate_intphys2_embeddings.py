@@ -52,6 +52,8 @@ def main() -> None:
         raise RuntimeError(f"No rows found in summary file: {summary_path}")
 
     embeddings = []
+    frame_embeddings = []
+    frame_embeddings_all_present = True
     video_ids = []
     video_paths = []
     sampled_indices = []
@@ -64,6 +66,15 @@ def main() -> None:
         if emb.ndim == 2 and emb.shape[0] == 1:
             emb = emb[0]
         embeddings.append(emb.to(torch.float32))
+
+        frame_emb = payload.get("frame_embeddings")
+        if frame_emb is None:
+            frame_embeddings_all_present = False
+        else:
+            if frame_emb.ndim == 3 and frame_emb.shape[0] == 1:
+                frame_emb = frame_emb[0]
+            frame_embeddings.append(frame_emb.to(torch.float32))
+
         video_ids.append(payload["video_id"])
         video_paths.append(payload["video_path"])
         sampled_indices.append(payload["sampled_frame_indices"])
@@ -78,6 +89,12 @@ def main() -> None:
         "sampled_frame_indices": sampled_indices,
         "source_summary_jsonl": str(summary_path),
     }
+    if frame_embeddings_all_present and len(frame_embeddings) == len(embeddings):
+        frame_embeddings_tensor = torch.stack(frame_embeddings, dim=0)  # [N, T', D]
+        bundle["frame_embeddings"] = frame_embeddings_tensor
+    else:
+        print("WARNING: frame_embeddings missing in one or more per-video files; bundle will not include frame_embeddings.")
+
     bundle_path = output_dir / f"{args.output_prefix}_embeddings_bundle.pt"
     torch.save(bundle, bundle_path)
 

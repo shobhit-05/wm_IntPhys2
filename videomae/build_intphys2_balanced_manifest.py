@@ -13,13 +13,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--metadata_csv",
         type=str,
-        default="data/IntPhys2/Main/metadata.csv",
+        default="/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/metadata.csv",
         help="Path to IntPhys2 metadata.csv",
     )
     parser.add_argument(
         "--videos_dir",
         type=str,
-        default="data/IntPhys2/Main/Videos",
+        default="/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/Videos",
         help="Directory containing video files named {name}.mp4",
     )
     parser.add_argument(

@@ -1,163 +1,53 @@
-import os, sys, pickle, csv, json, time, warnings
+"""Compute all RQ3 metrics from pre-extracted DreamerV3 latent embeddings.
+
+Run this AFTER the latent extraction step has saved:
+  outputs/id_latents.npy   [506, T, 10240]
+  outputs/ood_latents.npy  [506, T, 10240]
+  outputs/id_metadata.json
+  outputs/ood_metadata.json
+
+or after copying those files from the tillicum extraction run.
+"""
+
+import csv
+import json
+import warnings
+from collections import Counter, defaultdict
 from pathlib import Path
 
-# dreamerv3 repo path — set DREAMERV3_REPO env var or default to local clone
-_REPO = os.environ.get(
-    'DREAMERV3_REPO',
-    str(Path(__file__).resolve().parent / 'dreamerv3_repo'),
-)
-sys.path.insert(0, _REPO)
-
 import numpy as np
-import jax.numpy as jnp
-import ninjax as nj
-import elements
-import imageio
-from PIL import Image
-from dreamerv3.rssm import RSSM, Encoder
-from collections import Counter, defaultdict
 
 warnings.filterwarnings('ignore')
 
 # ── paths ──────────────────────────────────────────────────────────────
-_HERE = Path(__file__).resolve().parent
-CKPT    = os.environ.get('DREAMERV3_CKPT',    str(_HERE / 'checkpoints' / 'agent.pkl'))
-META    = '/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/metadata.csv'
-VID_DIR = '/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/Videos/'
-OUT_DIR = Path('/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/dreamerv3/outputs')
+WORK_DIR = Path(__file__).resolve().parent
+OUT_DIR  = WORK_DIR / 'outputs'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-SEQ_LEN       = 16
-IMG_SIZE      = 64
-MAX_PER_SPLIT = 506
-MODEL_NAME    = 'dreamerv3'
-EMBED_DIM     = 10240   # deter(8192) + stoch(32*64=2048)
+MODEL_NAME = 'dreamerv3'
+EMBED_DIM  = 10240
+SEQ_LEN    = 16
 
-# ── load model ──────────────────────────────────────────────────────────
-print("Loading checkpoint...")
-with open(CKPT, 'rb') as f:
-    ckpt = pickle.load(f)
-pretrained = ckpt['params']
+# ── load latents + metadata ─────────────────────────────────────────────
+print("Loading latents and metadata...")
+id_lat  = np.load(str(OUT_DIR / 'id_latents.npy'),  allow_pickle=False)  # [N, T, 10240]
+ood_lat = np.load(str(OUT_DIR / 'ood_latents.npy'), allow_pickle=False)
 
-act_space = {'action': elements.Space(np.int32, (), 0, 6)}
-obs_space = {'image': elements.Space(np.uint8, (IMG_SIZE, IMG_SIZE, 3), 0, 255)}
-encoder = Encoder(obs_space, depth=64, mults=(2,3,4,4), act='silu', norm='rms', kernel=5, name='enc')
-rssm    = RSSM(act_space, deter=8192, hidden=1024, stoch=32, classes=64, blocks=8, act='silu', norm='rms', name='dyn')
+with open(OUT_DIR / 'id_metadata.json')  as f: id_meta  = json.load(f)
+with open(OUT_DIR / 'ood_metadata.json') as f: ood_meta = json.load(f)
 
-dummy_imgs  = jnp.zeros((1, SEQ_LEN, IMG_SIZE, IMG_SIZE, 3), dtype=jnp.uint8)
-dummy_obs   = {'image': dummy_imgs}
-dummy_acts  = {'action': jnp.zeros((1, SEQ_LEN), dtype=jnp.int32)}
-dummy_reset = jnp.zeros((1, SEQ_LEN), dtype=bool).at[:, 0].set(True)
+n_pos = len(id_meta)
+n_imp = len(ood_meta)
+print(f"Possible: {n_pos} | Impossible: {n_imp} | embed_dim={EMBED_DIM}")
 
-enc_state = nj.init(encoder.__call__)({}, {}, dummy_obs, dummy_reset, training=False, seed=0)
-rssm_state, carry0 = nj.pure(rssm.initial)({}, 1)
-rssm_state, _ = nj.pure(rssm.observe)(rssm_state, carry0, jnp.zeros((1, SEQ_LEN, 4096)), dummy_acts, dummy_reset, training=False, seed=0, create=True)
-enc_state.update({k: v for k, v in pretrained.items() if k.startswith('enc/')})
-rssm_state.update({k: v for k, v in pretrained.items() if k.startswith('dyn/')})
-print("Weights loaded.")
+# ── build per-clip mean embeddings ──────────────────────────────────────
+emb_pos = id_lat.mean(axis=1)   # [N, 10240]
+emb_imp = ood_lat.mean(axis=1)
 
-# ── helpers ─────────────────────────────────────────────────────────────
-def load_frames(path):
-    reader = imageio.get_reader(path)
-    frames = []
-    for i, frame in enumerate(reader):
-        img = np.array(Image.fromarray(frame).resize((IMG_SIZE, IMG_SIZE), Image.BILINEAR))
-        frames.append(img)
-        if i >= SEQ_LEN - 1:
-            break
-    reader.close()
-    return np.stack(frames).astype(np.uint8) if len(frames) == SEQ_LEN else None
-
-def run_model(frames):
-    imgs  = jnp.array(frames)[None]
-    obs   = {'image': imgs}
-    acts  = {'action': jnp.zeros((1, SEQ_LEN), dtype=jnp.int32)}
-    reset = jnp.zeros((1, SEQ_LEN), dtype=bool).at[:, 0].set(True)
-    es, (_, _, tokens) = nj.pure(encoder.__call__)(enc_state, {}, obs, reset, training=False, seed=0)
-    rs, carry0 = nj.pure(rssm.initial)(rssm_state, 1)
-    rs, (_, _, feat) = nj.pure(rssm.observe)(rs, carry0, tokens, acts, reset, training=False, seed=0, create=True)
-    deter = np.array(feat['deter'][0])                      # [T, 8192]
-    stoch = np.array(feat['stoch'][0]).reshape(SEQ_LEN, -1) # [T, 2048]
-    return np.concatenate([deter, stoch], axis=-1).astype(np.float32)  # [T, 10240]
-
-# ── read metadata CSV (for Camera lookup) ───────────────────────────────
-with open(META) as f:
-    meta_rows = list(csv.DictReader(f))
-name_to_camera = {r['name']: r.get('Camera', '') for r in meta_rows}
-
-# ── extract latents ──────────────────────────────────────────────────────
-with open(META) as f:
-    all_rows = list(csv.DictReader(f))
-
-id_rows  = [r for r in all_rows if 'Possible'   in r['type']][:MAX_PER_SPLIT]
-ood_rows = [r for r in all_rows if 'Impossible' in r['type']][:MAX_PER_SPLIT]
-
-results = {}
-for split, rows in [('id', id_rows), ('ood', ood_rows)]:
-    print(f"\nExtracting {split.upper()} ({len(rows)} videos)...")
-    latents, metadata = [], []
-    t0 = time.time()
-    for i, row in enumerate(rows):
-        frames = load_frames(VID_DIR + row['file_name'].split('/')[-1])
-        if frames is None:
-            continue
-        lat = run_model(frames)   # [T, 10240]
-        latents.append(lat)
-        metadata.append({
-            'name':       row['name'],
-            'condition':  row['condition'],
-            'type':       row['type'],
-            'Difficulty': row.get('Difficulty', ''),
-            'Camera':     row.get('Camera', name_to_camera.get(row['name'], '')),
-        })
-        if (i + 1) % 50 == 0:
-            print(f"  {i+1}/{len(rows)} | elapsed: {time.time()-t0:.0f}s")
-    results[split] = {
-        'latents':  np.stack(latents),  # [N, T, 10240]
-        'metadata': metadata,
-    }
-    print(f"[{split.upper()}] shape={results[split]['latents'].shape}")
-
-# persist for re-use
-np.save(str(OUT_DIR / 'id_latents.npy'),  results['id']['latents'])
-np.save(str(OUT_DIR / 'ood_latents.npy'), results['ood']['latents'])
-with open(OUT_DIR / 'id_metadata.json',  'w') as f: json.dump(results['id']['metadata'],  f, indent=2)
-with open(OUT_DIR / 'ood_metadata.json', 'w') as f: json.dump(results['ood']['metadata'], f, indent=2)
-
-# ── build unified bundle ─────────────────────────────────────────────────
-id_lat   = results['id']['latents']    # [N_pos, T, 10240]
-ood_lat  = results['ood']['latents']   # [N_imp, T, 10240]
-id_meta  = results['id']['metadata']
-ood_meta = results['ood']['metadata']
-
-frame_emb = np.concatenate([id_lat, ood_lat], axis=0)  # [1012, T, 10240]
-emb       = frame_emb.mean(axis=1)                      # [1012, 10240]
-
-conditions   = [m['condition']  for m in id_meta + ood_meta]
-types        = [m['type']       for m in id_meta + ood_meta]
-difficulties = [m['Difficulty'] for m in id_meta + ood_meta]
-cameras      = [m['Camera']     for m in id_meta + ood_meta]
-
-n_total  = len(emb)
-n_pos    = sum(1 for t in types if 'Possible'   in t)
-n_imp    = sum(1 for t in types if 'Impossible' in t)
-print(f"\nBundle: {n_total} videos | possible={n_pos} | impossible={n_imp} | embed_dim={EMBED_DIM}")
-
-# ── split possible / impossible ──────────────────────────────────────────
-possible_mask   = np.array(['Possible'   in t for t in types])
-impossible_mask = np.array(['Impossible' in t for t in types])
-
-emb_pos = emb[possible_mask]
-emb_imp = emb[impossible_mask]
-fe_pos  = frame_emb[possible_mask]   # [n_pos, T, 10240]
-fe_imp  = frame_emb[impossible_mask] # [n_imp, T, 10240]
-
-conds_pos = [c for c, m in zip(conditions,   possible_mask) if m]
-conds_imp = [c for c, m in zip(conditions,   impossible_mask) if m]
-diffs_pos = [d for d, m in zip(difficulties, possible_mask) if m]
-cams_pos  = [c for c, m in zip(cameras,      possible_mask) if m]
-
-print(f"Possible: {len(emb_pos)} | Impossible: {len(emb_imp)}")
+conds_pos = [m['condition']  for m in id_meta]
+conds_imp = [m['condition']  for m in ood_meta]
+diffs_pos = [m.get('Difficulty', '') for m in id_meta]
+cams_pos  = [m.get('Camera', '')     for m in id_meta]
 
 # ── sklearn ──────────────────────────────────────────────────────────────
 from sklearn.cluster import KMeans
@@ -265,15 +155,15 @@ print(f"  invariance_score = {invariance:.4f}  (equiv={equiv_sims.mean():.4f}  d
 
 # ── 7. Latent temporal MSE gap ────────────────────────────────────────────
 print("[7/7] Latent temporal MSE gap...")
-id_mse  = float(np.mean((fe_pos[:, 1:] - fe_pos[:, :-1]) ** 2))
-ood_mse = float(np.mean((fe_imp[:, 1:] - fe_imp[:, :-1]) ** 2))
+id_mse  = float(np.mean((id_lat[:, 1:] - id_lat[:, :-1]) ** 2))
+ood_mse = float(np.mean((ood_lat[:, 1:] - ood_lat[:, :-1]) ** 2))
 gen_gap = ood_mse - id_mse
 metrics['latent_temporal_mse_gap'] = gen_gap
 metrics['id_mean_frame_mse']       = id_mse
 metrics['ood_mean_frame_mse']      = ood_mse
 print(f"  latent_temporal_mse_gap = {gen_gap:.5f}  (id={id_mse:.5f}  ood={ood_mse:.5f})")
 
-# ── DCI (LogReg + StratifiedKFold, same factors as V-JEPA) ───────────────
+# ── DCI (LogReg + StratifiedKFold) ───────────────────────────────────────
 print("\n[DCI] Cross-validated DCI (LogReg, possible only)...")
 
 candidate_factors = [
@@ -302,8 +192,8 @@ for out_name, values in candidate_factors:
     _le = LabelEncoder()
     y   = _le.fit_transform(values)
 
-    clf_cv   = LogisticRegression(solver='lbfgs', max_iter=1000, random_state=SEED)
-    cv       = StratifiedKFold(n_splits=folds, shuffle=True, random_state=SEED)
+    clf_cv    = LogisticRegression(solver='lbfgs', max_iter=1000, random_state=SEED)
+    cv        = StratifiedKFold(n_splits=folds, shuffle=True, random_state=SEED)
     cv_scores = cross_val_score(clf_cv, emb_sc, y, cv=cv, scoring='accuracy')
 
     clf_full = LogisticRegression(solver='lbfgs', max_iter=1000, random_state=SEED)
@@ -377,6 +267,7 @@ txt_out  = OUT_DIR / 'dreamerv3_rq3_metrics.txt'
 with open(str(json_out), 'w') as f:
     json.dump(results_out, f, indent=2)
 
+import csv as csv_mod
 flat = {
     'model': MODEL_NAME, 'embed_dim': EMBED_DIM,
     'n_possible': n_pos, 'n_impossible': n_imp,
@@ -391,7 +282,7 @@ for f_name in used_factors:
     flat[f'cv_std_{f_name}'] = factor_reports[f_name]['cv_std_accuracy']
 
 with open(str(csv_out), 'w', newline='') as f:
-    writer = csv.DictWriter(f, fieldnames=list(flat.keys()))
+    writer = csv_mod.DictWriter(f, fieldnames=list(flat.keys()))
     writer.writeheader()
     writer.writerow(flat)
 

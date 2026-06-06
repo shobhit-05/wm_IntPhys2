@@ -9,8 +9,8 @@ from PIL import Image
 from dreamerv3.rssm import RSSM, Encoder
 
 CKPT = '/gpfs/projects/infoseeking/sgupta01/dreamerv3_logs/latest_atari100k_pong/ckpt/20260125T200341F803200/agent.pkl'
-META = '/gpfs/projects/infoseeking/preiyalt/Main/metadata.csv'
-VID_DIR = '/gpfs/projects/infoseeking/preiyalt/Main/Videos/'
+META = '/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/metadata.csv'
+VID_DIR = '/mmfs1/gscratch/astro/klinjin/wm_IntPhys2/IntPhys2/Main/Videos/'
 OUT_DIR = '/gpfs/projects/infoseeking/maanyacb/rq3_outputs/dreamerv3/'
 SEQ_LEN = 16
 IMG_SIZE = 64
